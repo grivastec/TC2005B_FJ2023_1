@@ -45,6 +45,8 @@ public class Movimiento : MonoBehaviour
         
         // si tienes require esto ya no es necesario
         Assert.IsNotNull(_transform, "ES NECESARIO PARA MOVIMIENTO TENER UN TRANSFORM");
+    
+        print("CAMBIO EN RAMITA");
     }
 
     // Update is called once per frame
